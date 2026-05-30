@@ -77,4 +77,4 @@ Si deseas volver a entrenar el modelo o evaluar su rendimiento desde cero (aseg�
 El modelo actual alcanza aproximadamente un **87% de precisión global**, con picos destacables de **100% de precisión y 87% de recall para pacientes sanos** (garantizando 0 falsos positivos para sanos) y **100% de precisión para COVID-19**. Para ver un desglose completo de métricas y la metodología de Data Augmentation, consulta [documentacion_proyecto.md](documentacion_proyecto.md).
 
 ## 📝 Licencia / Autoría
-Desarrollado como proyecto para el curso de **Introducción a la IA**.
+Desarrollado por Roberto Alejandro Chagra Martínez
