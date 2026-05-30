@@ -1,10 +1,11 @@
 # AI in HealthCare - Chest Disease Detection
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21.0-orange)
+![Keras](https://img.shields.io/badge/Keras-3.14.1-red)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.57.0-red)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 Este proyecto implementa un modelo de inteligencia artificial basado en Deep Learning para la clasificación y detección de enfermedades torácicas (Neumonía Bacteriana, Neumonía Viral y COVID-19) o pulmones sanos a partir de radiografías de tórax (X-Rays). 
 
