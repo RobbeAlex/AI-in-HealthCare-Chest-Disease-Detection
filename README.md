@@ -36,8 +36,8 @@ Sigue estos pasos para ejecutar el proyecto localmente.
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repo.git
-cd nombre-del-repo
+git clone https://github.com/RobbeAlex/AI-in-HealthCare-Chest-Disease-Detection
+cd AI-in-HealthCare-Chest-Disease-Detection
 ```
 
 ### 2. Crear un entorno virtual (Recomendado)
