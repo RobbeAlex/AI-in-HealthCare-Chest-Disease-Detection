@@ -25,10 +25,6 @@ A partir de la combinación de ambos datasets, se categorizaron las imágenes en
 
 ## 2. Documentación del Proceso de Optimización del Modelo
 
-> [!NOTE]
-> **Aclaración sobre Teachable Machines vs. Desarrollo Manual en Python**
-> Aunque el proyecto inicial sugiere el uso de *Teachable Machines*, la solución documentada final descartó dicha herramienta web debido a sus limitaciones técnicas. Se optó por programar el entrenamiento del modelo desde cero utilizando **TensorFlow y Keras** en Python puro. Este enfoque manual fue indispensable para poder aplicar las técnicas avanzadas de optimización descritas a continuación (Fine-Tuning de 2 fases, Early Stopping, Data Augmentation específico y balanceo de pesos de clase), las cuales son imposibles de configurar directamente en la interfaz de Google Teachable Machines.
-
 ### 2.1 Ajustes de Arquitectura (Transfer Learning)
 - **Modelo Base:** Se implementó una arquitectura **MobileNetV2** pre-entrenada con ImageNet. Se eligió debido a su bajo costo computacional y alta eficiencia, descartando su cabeza clasificadora original (`include_top=False`).
 - **Arquitectura de Salida Personalizada:**
@@ -66,5 +62,5 @@ El proceso de entrenamiento se ejecutó utilizando una técnica de ajuste por et
   - **100% de precisión y 87% de recall** para pulmones sanos (`Healthy`), garantizando cero falsos positivos para sanos.
   - **100% de precisión y 93% de recall** para `covid-19`.
   - **93% de recall** para `Bacterial Pneumonia`.
-- **Matriz de Confusión:** Los resultados clínicos del ensayo se graficaron a través de una matriz (`matriz_confusion.png`) utilizando `seaborn` con una paleta de colores térmicos azules, facilitando la visualización precisa de falsos positivos y falsos negativos por patología.
+- **Matriz de Confusión:** Los resultados clínicos del ensayo se graficaron a través de una matriz de confusión utilizando `seaborn` con una paleta de colores térmicos azules, facilitando la visualización precisa de falsos positivos y falsos negativos por patología.
 - **Integración Web:** El modelo final optimizado se empaquetó con Streamlit (`app.py`), implementando una barra de confianza porcentual y advertencias predictivas para inferencias menores al 60% de certeza.
