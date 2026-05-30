@@ -1,5 +1,11 @@
 # AI in HealthCare - Chest Disease Detection
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
 Este proyecto implementa un modelo de inteligencia artificial basado en Deep Learning para la clasificación y detección de enfermedades torácicas (Neumonía Bacteriana, Neumonía Viral y COVID-19) o pulmones sanos a partir de radiografías de tórax (X-Rays). 
 
 El modelo utiliza la arquitectura **MobileNetV2** pre-entrenada con ImageNet (Transfer Learning) y una aplicación web interactiva desarrollada con **Streamlit** para realizar inferencias en tiempo real.
