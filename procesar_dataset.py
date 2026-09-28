@@ -4,7 +4,7 @@ from PIL import Image
 # 1. Rutas exactas
 RUTA_ORIGEN = (
     r"G:\Mi unidad\Drive alumno.udg.mx\4to Semestre\Introduccion a la IA"
-    r"\AI in HealthCare - Chest Disease Detection With Teachable Machines"
+    r"\AI in HealthCare - Chest Disease Detection\AI in HealthCare - Chest Disease Detection"
     r"\Training Data"
 )
 RUTA_DESTINO = "Training Data"
